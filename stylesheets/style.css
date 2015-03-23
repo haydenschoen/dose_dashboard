@@ -1,0 +1,684 @@
+/* line 13, ../sass/style.scss */
+html, body, a, div {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+/* line 33, ../sass/style.scss */
+a.button {
+  /*display: block;*/
+  /*height:100px;*/
+  line-height: 40px;
+  text-align: center;
+  padding: 4px 30px 4px 30px;
+  border: 3px solid #00AEEF;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/* line 46, ../sass/style.scss */
+a.button:hover {
+  background-color: #00AEEF;
+  color: white;
+}
+
+/* line 51, ../sass/style.scss */
+.panel {
+  background-color: #F6F6F6;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* line 65, ../sass/style.scss */
+.panelHeaderBG {
+  background-color: #344046;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2em;
+}
+
+/* line 72, ../sass/style.scss */
+p {
+  display: block;
+  color: #82878c;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+/* line 82, ../sass/style.scss */
+h2 {
+  display: block;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  color: white;
+  font-weight: 300;
+  display: block;
+}
+
+/* line 93, ../sass/style.scss */
+.arrowBlock {
+  background: #FFFFFF;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.28);
+  border-radius: 2px;
+  margin: 0;
+}
+/* line 98, ../sass/style.scss */
+.arrowBlock .arrowUpBlock {
+  border-bottom: 1px solid #82878c;
+  height: 30%;
+}
+/* line 101, ../sass/style.scss */
+.arrowBlock .arrowUpBlock .arrowUp {
+  height: 0;
+  width: 0;
+  border-left: .6em solid transparent;
+  border-right: .6em solid transparent;
+  border-bottom: 0.6em solid #82878c;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.83);
+  display: block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* line 115, ../sass/style.scss */
+.arrowBlock .arrowUpBlock:hover {
+  background-color: #c0c8ce;
+}
+/* line 119, ../sass/style.scss */
+.arrowBlock .fieldContent {
+  display: block;
+  position: relative;
+  height: 40%;
+  text-align: center;
+}
+/* line 125, ../sass/style.scss */
+.arrowBlock .fieldContent p {
+  position: relative;
+  display: block;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #82878c;
+}
+/* line 133, ../sass/style.scss */
+.arrowBlock .arrowDownBlock {
+  border-top: 1px solid #82878c;
+  height: 30%;
+}
+/* line 136, ../sass/style.scss */
+.arrowBlock .arrowDownBlock .arrowDown {
+  height: 0;
+  width: 0;
+  border-left: .6em solid transparent;
+  border-right: .6em solid transparent;
+  border-top: 0.6em solid #82878c;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.83);
+  display: block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* line 150, ../sass/style.scss */
+.arrowBlock .arrowDownBlock:hover {
+  background-color: #c0c8ce;
+}
+
+/* line 159, ../sass/style.scss */
+html, body {
+  height: 100vh;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+/* line 12, ../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
+html:after, body:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+/* line 172, ../sass/style.scss */
+html .background, body .background {
+  background: url("../images/mountains_blur.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  position: fixed;
+  z-index: 1;
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+/* line 182, ../sass/style.scss */
+html .container, body .container {
+  position: absolute;
+  z-index: 2;
+  height: 100%;
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+/* line 189, ../sass/style.scss */
+html .container .header, body .container .header {
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  position: fixed;
+  height: 60px;
+  background-color: rgba(187, 221, 242, 0.64);
+}
+/* line 196, ../sass/style.scss */
+html .container .header .logoImage, body .container .header .logoImage {
+  margin-left: 20px;
+  margin-top: 16px;
+}
+/* line 201, ../sass/style.scss */
+html .container .wrapper, body .container .wrapper {
+  top: 60px;
+  bottom: 0;
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  position: fixed;
+}
+/* line 208, ../sass/style.scss */
+html .container .wrapper .nav, body .container .wrapper .nav {
+  width: 15.25424%;
+  float: left;
+  margin-right: 1.69492%;
+  position: fixed;
+  top: 60px;
+  bottom: 0;
+  background-color: rgba(30, 35, 40, 0.71);
+}
+/* line 217, ../sass/style.scss */
+html .container .wrapper .nav .menu, body .container .wrapper .nav .menu {
+  padding: 0px;
+  margin: 0px;
+}
+/* line 222, ../sass/style.scss */
+html .container .wrapper .nav .menu .navButton, body .container .wrapper .nav .menu .navButton {
+  position: relative;
+  height: 60px;
+  margin-bottom: -.08em;
+  text-align: left;
+  display: block;
+}
+/* line 231, ../sass/style.scss */
+html .container .wrapper .nav .menu .navButton:hover .buttonEnd, body .container .wrapper .nav .menu .navButton:hover .buttonEnd {
+  width: 100%;
+}
+/* line 236, ../sass/style.scss */
+html .container .wrapper .nav .menu .navButton .buttonStart, body .container .wrapper .nav .menu .navButton .buttonStart {
+  border-top: 0;
+  font-size: 0.8em;
+  color: rgba(255, 255, 255, 0.61);
+  font-weight: 700;
+  text-decoration: none;
+  padding: 1.6em 0em;
+  text-indent: 1.4em;
+  display: block;
+}
+/* line 246, ../sass/style.scss */
+html .container .wrapper .nav .menu .navButton .buttonEnd, body .container .wrapper .nav .menu .navButton .buttonEnd {
+  border-top: 0;
+  position: absolute;
+  top: 0px;
+  text-indent: 1.4em;
+  font-size: 0.8em;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 1.6em 0em;
+  display: block;
+  background-color: #61c4ef;
+  width: 6px;
+  overflow-x: hidden;
+}
+/* line 266, ../sass/style.scss */
+html .container .wrapper .dashMain, body .container .wrapper .dashMain {
+  width: 83.05085%;
+  float: right;
+  margin-right: 0;
+  height: 100%;
+  overflow-y: auto;
+}
+/* line 272, ../sass/style.scss */
+html .container .wrapper .dashMain .panel, body .container .wrapper .dashMain .panel {
+  width: 79.59184%;
+  float: left;
+  margin-right: 2.04082%;
+  margin-left: 8.47458%;
+  height: 80%;
+}
+/* line 281, ../sass/style.scss */
+html .container .wrapper .setupMain, body .container .wrapper .setupMain {
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  height: 100%;
+}
+/* line 285, ../sass/style.scss */
+html .container .wrapper .setupMain .splashGroup, body .container .wrapper .setupMain .splashGroup {
+  position: relative;
+  width: 32.20339%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-left: 33.89831%;
+  display: block;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  /* line 285, ../sass/style.scss */
+  html .container .wrapper .setupMain .splashGroup, body .container .wrapper .setupMain .splashGroup {
+    width: 83.05085%;
+    float: left;
+    margin-right: 1.69492%;
+    margin-left: 8.47458%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* line 285, ../sass/style.scss */
+  html .container .wrapper .setupMain .splashGroup, body .container .wrapper .setupMain .splashGroup {
+    width: 91.52542%;
+    float: left;
+    margin-right: 1.69492%;
+    margin-left: 4.23729%;
+  }
+}
+/* line 300, ../sass/style.scss */
+html .container .wrapper .setupMain .splashGroup h1, body .container .wrapper .setupMain .splashGroup h1 {
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  display: block;
+}
+/* line 306, ../sass/style.scss */
+html .container .wrapper .setupMain .splashGroup .welcomeImage, body .container .wrapper .setupMain .splashGroup .welcomeImage {
+  background-color: #00AEEF;
+  width: 300px;
+  height: 300px;
+  opacity: .7;
+  border-radius: 150px;
+  margin: auto;
+}
+/* line 317, ../sass/style.scss */
+html .container .wrapper .setupMain .splashGroup p, body .container .wrapper .setupMain .splashGroup p {
+  color: white;
+  display: block;
+  margin: 2em 0em;
+}
+/* line 322, ../sass/style.scss */
+html .container .wrapper .setupMain .splashGroup a, body .container .wrapper .setupMain .splashGroup a {
+  text-align: center;
+  display: block;
+}
+/* line 328, ../sass/style.scss */
+html .container .wrapper .setupMain .panel, body .container .wrapper .setupMain .panel {
+  width: 66.10169%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-left: 16.94915%;
+  height: 80%;
+  position: relative;
+}
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  /* line 328, ../sass/style.scss */
+  html .container .wrapper .setupMain .panel, body .container .wrapper .setupMain .panel {
+    width: 83.05085%;
+    float: left;
+    margin-right: 1.69492%;
+    margin-left: 8.47458%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* line 328, ../sass/style.scss */
+  html .container .wrapper .setupMain .panel, body .container .wrapper .setupMain .panel {
+    clear: both;
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    height: 100%;
+    margin-top: 0px;
+    border-radius: 0em;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* line 344, ../sass/style.scss */
+  html .container .wrapper .setupMain .panel .panelHeaderBG, body .container .wrapper .setupMain .panel .panelHeaderBG {
+    padding: 1em 2em;
+  }
+}
+/* line 348, ../sass/style.scss */
+html .container .wrapper .setupMain .panel .panelHeaderBG .progressIndicator, body .container .wrapper .setupMain .panel .panelHeaderBG .progressIndicator {
+  display: block;
+  position: relative;
+  margin-top: 1em;
+  height: 2em;
+  text-align: justify;
+  -ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines;
+}
+/* line 356, ../sass/style.scss */
+html .container .wrapper .setupMain .panel .panelHeaderBG .progressIndicator .progressCircleActive, body .container .wrapper .setupMain .panel .panelHeaderBG .progressIndicator .progressCircleActive {
+  width: 2em;
+  height: 2em;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #00AEEF;
+  vertical-align: top;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  z-index: 2;
+  position: relative;
+}
+/* line 370, ../sass/style.scss */
+html .container .wrapper .setupMain .panel .panelHeaderBG .progressIndicator .progressCircleNext, body .container .wrapper .setupMain .panel .panelHeaderBG .progressIndicator .progressCircleNext {
+  width: 2em;
+  height: 2em;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #82878c;
+  vertical-align: top;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  z-index: 2;
+  position: relative;
+}
+/* line 384, ../sass/style.scss */
+html .container .wrapper .setupMain .panel .panelHeaderBG .progressIndicator .progressNumberActive, body .container .wrapper .setupMain .panel .panelHeaderBG .progressIndicator .progressNumberActive {
+  float: left;
+  width: 100%;
+  padding-top: 50%;
+  line-height: 1em;
+  margin-top: -0.5em;
+  text-align: center;
+  color: white;
+}
+/* line 393, ../sass/style.scss */
+html .container .wrapper .setupMain .panel .panelHeaderBG .progressIndicator .progressNumber, body .container .wrapper .setupMain .panel .panelHeaderBG .progressIndicator .progressNumber {
+  float: left;
+  width: 100%;
+  padding-top: 50%;
+  line-height: 1em;
+  margin-top: -0.5em;
+  text-align: center;
+  color: #344046;
+}
+/* line 404, ../sass/style.scss */
+html .container .wrapper .setupMain .panel .panelHeaderBG .stretch, body .container .wrapper .setupMain .panel .panelHeaderBG .stretch {
+  width: 100%;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+}
+/* line 410, ../sass/style.scss */
+html .container .wrapper .setupMain .panel .panelHeaderBG .line, body .container .wrapper .setupMain .panel .panelHeaderBG .line {
+  position: absolute;
+  top: 1em;
+  margin-top: -2px;
+  width: 99%;
+  height: 4px;
+  z-index: 1;
+  background-color: #82878c;
+}
+/* line 419, ../sass/style.scss */
+html .container .wrapper .setupMain .panel .panelHeaderBG #step1line, body .container .wrapper .setupMain .panel .panelHeaderBG #step1line {
+  background-color: #00AEEF;
+  width: 0%;
+}
+/* line 423, ../sass/style.scss */
+html .container .wrapper .setupMain .panel .panelHeaderBG #step2line, body .container .wrapper .setupMain .panel .panelHeaderBG #step2line {
+  background-color: #00AEEF;
+  width: 33%;
+}
+/* line 427, ../sass/style.scss */
+html .container .wrapper .setupMain .panel .panelHeaderBG #step3line, body .container .wrapper .setupMain .panel .panelHeaderBG #step3line {
+  background-color: #00AEEF;
+  width: 66%;
+}
+/* line 431, ../sass/style.scss */
+html .container .wrapper .setupMain .panel .panelHeaderBG #step4line, body .container .wrapper .setupMain .panel .panelHeaderBG #step4line {
+  background-color: #00AEEF;
+  width: 100%;
+}
+/* line 437, ../sass/style.scss */
+html .container .wrapper .setupMain .panel .scrollWindow, body .container .wrapper .setupMain .panel .scrollWindow {
+  width: 100%;
+  overflow-y: auto;
+  top: 145px;
+  bottom: 3em;
+  padding: 2em;
+  position: absolute;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 500px) {
+  /* line 437, ../sass/style.scss */
+  html .container .wrapper .setupMain .panel .scrollWindow, body .container .wrapper .setupMain .panel .scrollWindow {
+    top: 113px;
+  }
+}
+/* line 449, ../sass/style.scss */
+html .container .wrapper .setupMain .panel .scrollWindow .stepDescription, body .container .wrapper .setupMain .panel .scrollWindow .stepDescription {
+  width: 61.53846%;
+  float: left;
+  margin-right: 2.5641%;
+}
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  /* line 449, ../sass/style.scss */
+  html .container .wrapper .setupMain .panel .scrollWindow .stepDescription, body .container .wrapper .setupMain .panel .scrollWindow .stepDescription {
+    width: 74.35897%;
+    float: left;
+    margin-right: 2.5641%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* line 449, ../sass/style.scss */
+  html .container .wrapper .setupMain .panel .scrollWindow .stepDescription, body .container .wrapper .setupMain .panel .scrollWindow .stepDescription {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+/* line 461, ../sass/style.scss */
+html .container .wrapper .setupMain .panel .scrollWindow .step1Content, body .container .wrapper .setupMain .panel .scrollWindow .step1Content {
+  margin-top: 2em;
+  display: block;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+/* line 471, ../sass/style.scss */
+html .container .wrapper .setupMain .panel .scrollWindow .step1Content .arrowBlock, body .container .wrapper .setupMain .panel .scrollWindow .step1Content .arrowBlock {
+  display: inline-block;
+  position: relative;
+  height: 9em;
+  width: 48.71795%;
+  float: left;
+  margin-right: 2.5641%;
+}
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  /* line 471, ../sass/style.scss */
+  html .container .wrapper .setupMain .panel .scrollWindow .step1Content .arrowBlock, body .container .wrapper .setupMain .panel .scrollWindow .step1Content .arrowBlock {
+    width: 48.71795%;
+    float: left;
+    margin-right: 2.5641%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* line 471, ../sass/style.scss */
+  html .container .wrapper .setupMain .panel .scrollWindow .step1Content .arrowBlock, body .container .wrapper .setupMain .panel .scrollWindow .step1Content .arrowBlock {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+/* line 483, ../sass/style.scss */
+html .container .wrapper .setupMain .panel .scrollWindow .step1Content .arrowBlock p, body .container .wrapper .setupMain .panel .scrollWindow .step1Content .arrowBlock p {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+/* line 489, ../sass/style.scss */
+html .container .wrapper .setupMain .panel .scrollWindow .step1Content .timesPerDayExample, body .container .wrapper .setupMain .panel .scrollWindow .step1Content .timesPerDayExample {
+  width: 30%;
+  margin-left: 2em;
+  display: inline-block;
+}
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  /* line 489, ../sass/style.scss */
+  html .container .wrapper .setupMain .panel .scrollWindow .step1Content .timesPerDayExample, body .container .wrapper .setupMain .panel .scrollWindow .step1Content .timesPerDayExample {
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* line 489, ../sass/style.scss */
+  html .container .wrapper .setupMain .panel .scrollWindow .step1Content .timesPerDayExample, body .container .wrapper .setupMain .panel .scrollWindow .step1Content .timesPerDayExample {
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: 0em;
+    margin-top: 2em;
+  }
+}
+/* line 503, ../sass/style.scss */
+html .container .wrapper .setupMain .panel .scrollWindow .step1Content .timesPerDayExample h1, body .container .wrapper .setupMain .panel .scrollWindow .step1Content .timesPerDayExample h1 {
+  font-size: 1em;
+  font-weight: 700;
+  color: #344046;
+  margin-top: 0em;
+}
+/* line 509, ../sass/style.scss */
+html .container .wrapper .setupMain .panel .scrollWindow .step1Content .timesPerDayExample p, body .container .wrapper .setupMain .panel .scrollWindow .step1Content .timesPerDayExample p {
+  font-size: 1em;
+}
+/* line 515, ../sass/style.scss */
+html .container .wrapper .setupMain .panel .scrollWindow .step2Content, body .container .wrapper .setupMain .panel .scrollWindow .step2Content {
+  margin-top: 2em;
+  display: block;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+/* line 522, ../sass/style.scss */
+html .container .wrapper .setupMain .panel .scrollWindow .step2Content .timeBlock, body .container .wrapper .setupMain .panel .scrollWindow .step2Content .timeBlock {
+  width: 31.03448%;
+  float: left;
+  margin-left: 3.44828%;
+  background-color: #D5D5D5;
+  border-radius: 2px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+}
+/* line 529, ../sass/style.scss */
+html .container .wrapper .setupMain .panel .scrollWindow .step2Content .timeBlock .timeHeaderBG, body .container .wrapper .setupMain .panel .scrollWindow .step2Content .timeBlock .timeHeaderBG {
+  background-color: #344046;
+  box-sizing: border-box;
+  padding: .5em 1em;
+}
+/* line 533, ../sass/style.scss */
+html .container .wrapper .setupMain .panel .scrollWindow .step2Content .timeBlock .timeHeaderBG p, body .container .wrapper .setupMain .panel .scrollWindow .step2Content .timeBlock .timeHeaderBG p {
+  color: white;
+}
+/* line 537, ../sass/style.scss */
+html .container .wrapper .setupMain .panel .scrollWindow .step2Content .timeBlock .arrowBlock, body .container .wrapper .setupMain .panel .scrollWindow .step2Content .timeBlock .arrowBlock {
+  box-sizing: inherit;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  height: 7em;
+  width: 26%;
+  margin: 5.5% -4px 5.5% 5.5%;
+}
+/* line 545, ../sass/style.scss */
+html .container .wrapper .setupMain .panel .scrollWindow .step2Content .timeBlock .arrowBlock p, body .container .wrapper .setupMain .panel .scrollWindow .step2Content .timeBlock .arrowBlock p {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+/* line 550, ../sass/style.scss */
+html .container .wrapper .setupMain .panel .scrollWindow .step2Content .timeBlock .colon, body .container .wrapper .setupMain .panel .scrollWindow .step2Content .timeBlock .colon {
+  position: absolute;
+  width: 5.5%;
+  margin-left: 31.5%;
+  display: block;
+  top: 62%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+/* line 564, ../sass/style.scss */
+html .container .wrapper .setupMain .panel .buttonGroup, body .container .wrapper .setupMain .panel .buttonGroup {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: white;
+  box-sizing: border-box;
+}
+/* line 571, ../sass/style.scss */
+html .container .wrapper .setupMain .panel .buttonGroup .backButton, body .container .wrapper .setupMain .panel .buttonGroup .backButton {
+  float: left;
+  display: block;
+  font-weight: 700;
+  font-size: 1em;
+  color: #82878c;
+  text-decoration: none;
+  padding: 1em 2em;
+}
+/* line 580, ../sass/style.scss */
+html .container .wrapper .setupMain .panel .buttonGroup .nextButton, body .container .wrapper .setupMain .panel .buttonGroup .nextButton {
+  float: right;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1em;
+  color: #00AEEF;
+  text-decoration: none;
+  padding: 1em 2em;
+}
